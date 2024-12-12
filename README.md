@@ -9,4 +9,4 @@ Using these estimates, a model can be plotted alongside the data. This model can
 
 2.)Exponential growth can be calculated with the formula N(t) = N0(1+r)^t. Using estimates from the anaysis, and looking for population size at time 4980, the equation becomes exp(6.8941709)*((1+0.0100086)^4980)=3.411596e+24. Therefore, N at minute 4980 is equal to 3.411596e+24. Utilising the linear model, the resulting N at time 4980 in this data set under logistic growth would be 5.979e+10. This notable difference in size is due to the lack of carrying capacity in the exponential growth equation.
 
-3.) ![Logistic vs Exponential Growth](https://github.com/Omin322/logistic_growth/blob/dev/expovlogplot.pdf)
+3.) ![Logistic vs Exponential Growth](https://github.com/Omin322/logistic_growth/blob/dev/expovlogplot.png)
