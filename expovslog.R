@@ -22,9 +22,11 @@ logistic_fun <- function(t) {
 
 ggplot(aes(t,N), data = growth_data) +
 
-geom_function(fun=logistic_fun, colour="red") +
+geom_function(fun=logistic_fun, aes(colour="Logsitic Growth")) +
   
-  geom_function(fun=expo_fun, colour="blue") +
+  geom_function(fun=expo_fun, aes(colour="Exponential Growth")) +
+  
+  labs(colour=NULL) +
   
   scale_y_continuous(trans='log10')
 
